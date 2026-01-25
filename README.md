@@ -1,1 +1,1 @@
-# physique-chimie-terminale-lyc-e-
+# physique-chimie-terminale-scientifique
