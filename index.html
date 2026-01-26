@@ -3,46 +3,109 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Conditions de vente – Terminale Scientifique MG</title>
+<title>Terminale Scientifique – PDF Bac</title>
 
 <style>
 body{
-  font-family: Arial, sans-serif;
-  background:#f3f4f6;
   margin:0;
+  font-family:Arial, sans-serif;
+  background:#f3f4f6;
   color:#111827;
 }
 
 header{
-  background:#1e3a8a;
+  background:linear-gradient(90deg,#1e3a8a,#2563eb);
   color:white;
-  padding:25px;
+  padding:35px 20px;
   text-align:center;
 }
 
+header h1{
+  margin:0;
+  font-size:2.3em;
+}
+
+header p{
+  margin:6px 0;
+  font-size:1.05em;
+}
+
+.badge{
+  display:inline-block;
+  background:#22c55e;
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:0.9em;
+  margin-top:8px;
+}
+
+.whatsapp-btn{
+  display:inline-block;
+  margin-top:15px;
+  background:#ffcc00;
+  color:#1e3a8a;
+  padding:12px 18px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
 .container{
-  max-width:900px;
+  max-width:1000px;
   margin:auto;
   padding:25px;
+}
+
+.info{
+  background:#e0f2fe;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:25px;
+}
+
+.card{
   background:white;
+  border-radius:12px;
+  padding:20px;
+  margin-bottom:20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.08);
 }
 
-h2{
-  color:#1e3a8a;
-  margin-top:30px;
+.card h2{
+  margin-top:0;
 }
 
-p, li{
-  line-height:1.6;
+.price{
+  color:#16a34a;
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+.buy-btn{
+  display:inline-block;
+  margin-top:10px;
+  background:#2563eb;
+  color:white;
+  padding:10px 16px;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+.pack{
+  background:#fff7ed;
+  border-left:6px solid #f97316;
 }
 
 footer{
   background:#111827;
   color:#d1d5db;
   text-align:center;
-  padding:15px;
+  padding:20px;
   font-size:0.9em;
-  margin-top:30px;
+}
+
+@media(max-width:600px){
+  header h1{font-size:1.8em;}
 }
 </style>
 </head>
@@ -50,81 +113,74 @@ footer{
 <body>
 
 <header>
-  <h1>Conditions Générales de Vente</h1>
-  <p>TerminaleScientifique MG</p>
+  <h1>Terminale Scientifique – Bac S</h1>
+  <p>Documents PDF Premium • Cours & Exercices Corrigés</p>
+
+  <p>
+    <strong>ANDRIANTSEHENO Fidimahery</strong><br>
+    Professeur certifié en Physique-Chimie<br>
+    Diplôme : CAPEN
+  </p>
+
+  <span class="badge">📘 Spécial programme Madagascar</span><br>
+
+  <a class="whatsapp-btn" href="https://wa.me/261347477005">
+    📲 Commander via WhatsApp – 034 74 770 05
+  </a>
 </header>
 
 <div class="container">
 
-  <h2>1. Présentation</h2>
-  <p>
-    La plateforme <strong>TerminaleScientifique MG</strong> propose des documents pédagogiques
-    numériques (PDF) destinés aux élèves de Terminale Scientifique suivant
-    le programme officiel de Madagascar.
-  </p>
+  <div class="info">
+    <h3>🛒 Comment acheter ?</h3>
+    <ol>
+      <li>Choisissez votre document ou pack</li>
+      <li>Payez par <strong>MVola / Orange Money / Airtel Money</strong></li>
+      <li>Envoyez la preuve sur WhatsApp</li>
+      <li>Réception immédiate du PDF</li>
+    </ol>
+  </div>
 
-  <h2>2. Nature des produits</h2>
-  <p>
-    Les produits vendus sont exclusivement des fichiers numériques (PDF) :
-    cours, exercices corrigés, fiches méthodes et packs pédagogiques.
-    Aucun produit physique n’est expédié.
-  </p>
+  <div class="card">
+    <h2>📘 Physique – Mécanique</h2>
+    <p>Cours complet + exercices corrigés type Bac.</p>
+    <p class="price">Prix : 5 000 Ar</p>
+    <a class="buy-btn" href="https://wa.me/261347477005">Acheter</a>
+  </div>
 
-  <h2>3. Prix</h2>
-  <p>
-    Les prix sont indiqués en Ariary (Ar).  
-    Les tarifs peuvent être modifiés à tout moment, mais le prix appliqué est
-    celui en vigueur au moment de la commande.
-  </p>
+  <div class="card">
+    <h2>🧪 Chimie – Réactions acido-basiques</h2>
+    <p>Résumé clair + méthodes + exercices corrigés.</p>
+    <p class="price">Prix : 5 000 Ar</p>
+    <a class="buy-btn" href="https://wa.me/261347477005">Acheter</a>
+  </div>
 
-  <h2>4. Moyens de paiement</h2>
-  <ul>
-    <li>MVola</li>
-    <li>Orange Money</li>
-    <li>Airtel Money</li>
-  </ul>
-  <p>
-    Le paiement s’effectue manuellement.  
-    Le client doit envoyer une preuve de paiement via WhatsApp.
-  </p>
+  <div class="card">
+    <h2>📐 Mathématiques – Probabilités</h2>
+    <p>PDF spécial Bac avec corrigés détaillés.</p>
+    <p class="price">Prix : 5 000 Ar</p>
+    <a class="buy-btn" href="https://wa.me/261347477005">Acheter</a>
+  </div>
 
-  <h2>5. Livraison des documents</h2>
-  <p>
-    Après validation du paiement, les fichiers PDF sont envoyés
-    directement au client par WhatsApp ou par email.
-  </p>
-
-  <h2>6. Politique de remboursement</h2>
-  <p>
-    Étant donné la nature numérique des produits, <strong>aucun remboursement
-    n’est possible</strong> après l’envoi des fichiers PDF.
-  </p>
-
-  <h2>7. Droits d’utilisation</h2>
-  <ul>
-    <li>Usage strictement personnel</li>
-    <li>Interdiction de partage ou de revente</li>
-    <li>Interdiction de diffusion sur les réseaux sociaux</li>
-  </ul>
-
-  <h2>8. Responsabilité</h2>
-  <p>
-    Les documents sont conçus pour aider à la compréhension et à la préparation
-    des examens, mais ne garantissent pas automatiquement la réussite au Bac.
-  </p>
-
-  <h2>9. Contact</h2>
-  <p>
-    Pour toute question ou réclamation :  
-    <br><strong>WhatsApp :</strong> 034 74 770 05  
-    <br><strong>Responsable :</strong> ANDRIANTSEHENO Fidimahery  
-    <br>Professeur certifié – CAPEN Physique-Chimie
-  </p>
+  <div class="card pack">
+    <h2>📦 Packs avantageux</h2>
+    <ul>
+      <li>Physique + Chimie : <strong>8 000 Ar</strong></li>
+      <li>Maths + Physique : <strong>8 000 Ar</strong></li>
+      <li><strong>Pack Complet (Toutes matières) : 12 000 Ar</strong></li>
+    </ul>
+    <a class="buy-btn" href="https://wa.me/261347477005">Commander un pack</a>
+  </div>
 
 </div>
 
 <footer>
-  © 2026 – TerminaleScientifique MG | Tous droits réservés
+  © 2026 – ANDRIANTSEHENO Fidimahery<br>
+  Plateforme éducative Terminale Scientifique<br>
+  Paiement : MVola • Orange Money • Airtel Money
+  <br><br>
+  <img src="https://hitwebcounter.com/counter/counter.php?page=12345678&style=0006&nbdigits=5&type=page&initCount=0"
+       alt="Compteur de visiteurs">
 </footer>
 
 </body>
